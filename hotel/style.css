@@ -1,0 +1,212 @@
+.flex {
+    display: flex;
+}
+#menua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana;
+    background-color: #75E8EF;
+    font-size: 16pt;
+    width: 100%;
+    height: 154px;
+}
+
+#menub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00CBD7;
+    text-align: center;
+    position: absolute;
+    width: 1421px;
+    height: 53px;
+    left: 90px;
+    top: 109px;
+}
+
+#menuc {
+    position: absolute;
+    width: 497px;
+    height: 218px;
+    left: -113px;
+    top: 0px;
+    
+    background: #75E8EF;
+    border-radius: 109px;
+}
+
+#menub a {
+    font-family: Arial;
+font-style: normal;
+font-size: 40px;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+
+#menua a {
+    position: absolute;
+width: 369px;
+height: 117px;
+left: 183px;
+top: 0px;
+
+font-family: 'Iceberg';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 117px;
+
+color: #FFFFFF;
+}
+
+#menua h1 {
+    position: absolute;
+    width: 443px;
+    height: 41px;
+    left: 608px;
+    top: 35px;
+    font-family: 'IM FELL French Canon SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    color: #F5F5F5;
+}
+
+#menua img {
+    position: absolute;
+width: 154px;
+left: 1282px;
+}
+
+#menub a:hover {
+    text-decoration: none;
+    color: #00fffb;
+}
+
+#menub li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#menub img {
+    position: absolute;
+    width: 154px;
+    left: -82px;
+    top: -101px;
+    border-radius: 50%;
+}
+
+#menuc img {
+    position: absolute;
+width: 218px;
+height: 218px;
+left: 113px;
+top: 0px;
+border-radius: 50%;
+}
+
+#menuc a {
+position: absolute;
+width: 99px;
+height: 0px;
+left: 363px;
+top: 10px;
+
+    color: #565656;
+    text-decoration: none;
+    font-size: 150px;
+}
+
+#menuc a :hover {
+    color: #5656568e;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #00CBD7;
+}
+
+#promocao {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    width: 470px;
+font-size: 40px;
+margin: 1%;
+}
+
+#promocao img {
+    height: 160px;
+    cursor: default;
+}
+
+#promocao img:hover{
+    color: #FF007A;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: #FF007A;
+    font-family: 'Arial';
+    font-size: 30px;
+}
+
+#contato {
+    position: absolute;
+width: 1289px;
+height: 480px;
+left: 110px;
+top: 220px;
+
+background: #FF007A;
+border-radius: 60px;
+}
+
+#contato h4 {
+    padding: 15px;
+    font-family: 'arial';
+    font-size: 35px;
+    color: #FFFFFF;
+    line-height: 1px;
+}
+
+h3 {
+    position: absolute;
+width: 600px;
+left: 400px;
+top: -80px;
+
+font-family: 'Italiana';
+font-weight: 50;
+font-size: 128px;
+
+color: #00CBD7;
+
+}
